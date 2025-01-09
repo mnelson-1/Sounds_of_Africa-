@@ -1,0 +1,86 @@
+CTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sounds of Africa</title>
+</head>
+<body>
+    <header>
+        <h3>Sounds of Africa</h3>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Artists.html">Artists</a></li>
+            </ul>
+        </nav>
+        <a href="About.html"><button>Contact Us</button></a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Mission</h2>
+            <p>
+                At "Sounds of Africa," our mission is to celebrate and promote the rich and diverse musical heritage of Africa. 
+                We aim to showcase talented artists, explore vibrant genres, and connect music lovers around the globe to the soul-stirring sounds of the continent.
+            </p>
+            </section>
+        
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or collaboration ideas, feel free to reach out to us through the form below.</p>
+        
+            <form action="index.html" method="POST">
+                <!-- Name Field -->
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <!-- Email Field -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <!-- Message Field -->
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+                <!-- Country Dropdown -->
+                <label for="country">Country:</label><br>
+                <input list="countries" id="country" name="country" placeholder="Select or type your country" required>
+                <datalist id="countries">
+                    <option value="Nigeria">
+                    <option value="Ghana">
+                    <option value="South Africa">
+                    <option value="Kenya">
+                    <option value="Ethiopia">
+                    <option value="Morocco">
+                    <option value="Egypt">
+                    <option value="Tanzania">
+                    <option value="Zimbabwe">
+                    <option value="Senegal">
+                </datalist><br><br>
+        
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <section>
+            <h2>Our Location</h2>
+            <p>Visit us at our office or explore the map below to see where we're based:</p>
+        
+            <!-- Google Map Embed -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.7457782857824!2d7.501962615224025!3d9.057849293479807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104dd9a01c9c5127%3A0x35f9e3dc893b4c7c!2sAbuja%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1690500000000!5m2!1sen!2sng" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </main>
+</body>
+</html>
+
